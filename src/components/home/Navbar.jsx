@@ -46,7 +46,6 @@ export default function Navbar() {
     whileHover={{ scale: 1.05 }}
   />
 </Link>
-          </Link>
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
