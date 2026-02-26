@@ -38,10 +38,14 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link to={createPageUrl('Home')}>
-            <motion.span className="text-xl font-bold tracking-tight text-[#0A3D2E]" whileHover={{ scale: 1.05 }}>
-              Olex<span className="text-emerald-500">web</span>
-            </motion.span>
+         <Link to={createPageUrl('Home')}>
+  <motion.img
+    src="/logo.png"
+    alt="Olexweb Logo"
+    className="h-10 w-auto"
+    whileHover={{ scale: 1.05 }}
+  />
+</Link>
           </Link>
 
           {/* Desktop nav */}
