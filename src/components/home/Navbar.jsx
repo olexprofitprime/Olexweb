@@ -42,7 +42,7 @@ export default function Navbar() {
   <motion.img
     src="/logo.png"
     alt="Olexweb Logo"
-    className="h-10 w-auto"
+    className="h-12 w-auto"
     whileHover={{ scale: 1.05 }}
   />
 </Link>
